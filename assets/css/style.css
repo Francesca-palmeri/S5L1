@@ -220,3 +220,44 @@ footer a {
     }
 
 }
+
+@media screen and (min-width: 1200px ){
+
+    header nav li {
+        display: inline-block;
+        text-align: end;
+    }
+   
+
+    table{
+        margin-top: 4em;
+        width: 30em;
+
+    }
+
+    iframe, section{
+        display: inline-block;
+        vertical-align: middle;
+        text-align: center;
+    }
+
+    iframe{
+        width: 45%;
+        height: 12em;
+        margin-left: 0;
+    }
+
+    section{
+        width: 50%;
+        margin-right:0 ;
+        border-radius: 20px;
+
+    }
+
+}
+
+@media print{
+        header, iframe, section, aside, footer{
+            display: none;
+        }
+}
