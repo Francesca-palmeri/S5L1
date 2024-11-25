@@ -224,42 +224,55 @@ footer a {
 @media screen and (min-width: 1200px ){
 
     header{
-        text-align: justify;
+        text-align: left;
+        
     }
-    header div img {
-        display:inline-block;
 
+    header nav {
+        display: inline;
+        
     }
     
-    header div, header nav{
-        display: inline-block; 
-    }
-
-    header nav li {
+    header div, header div p,  header nav {
         display: inline-block;
-        text-align: end;
+        margin-bottom:0;
+        font-size: 1.2em;
+
+        
+    }
+   
+    header div {
+        width: 75%;
     }
 
-    
-   
-
+    header div img{
+        vertical-align: middle;
+        margin-bottom: 0;
+        padding: 0;
+    }
     table{
         margin-top: 4em;
         width: 30em;
 
     }
 
+    .megaDiv{
+        text-align: center;
+
+    }
+
     iframe, section{
         display: inline-block;
         vertical-align: middle;
-        text-align: center;
         margin: auto;
+        height: 300px;
+        
     }
 
     iframe{
         width: 45%;
-        height: 12em;
         margin-left: 0;
+        font-size: 0;
     }
 
     section{
@@ -269,6 +282,21 @@ footer a {
         text-align: left;
 
     }
+
+    aside{
+        text-align: center;
+    }
+
+    aside h2{
+        margin: 20px;
+    }
+
+    aside div{
+        display: inline-block;
+        width: 32%;
+        font-size: 0.8em;    
+    }
+
 
 }
 
