@@ -223,10 +223,24 @@ footer a {
 
 @media screen and (min-width: 1200px ){
 
+    header{
+        text-align: justify;
+    }
+    header div img {
+        display:inline-block;
+
+    }
+    
+    header div, header nav{
+        display: inline-block; 
+    }
+
     header nav li {
         display: inline-block;
         text-align: end;
     }
+
+    
    
 
     table{
