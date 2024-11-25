@@ -248,6 +248,8 @@ footer a {
 @media screen and (min-width: 1200px) {
   header {
     text-align: left;
+    padding: 0;
+   
   }
 
   header nav {
@@ -262,11 +264,12 @@ footer a {
   }
 
   header div {
-    width: 75%;
+    width: 70%;
   }
 
   header div img {
     vertical-align: middle;
+    padding-top: 15px;
   }
 
   header div p{
