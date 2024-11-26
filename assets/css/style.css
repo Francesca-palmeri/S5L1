@@ -295,7 +295,7 @@ footer a {
   }
 
   iframe {
-    width: 45%;
+    width: 50%;
     margin-left: 0;
     font-size: 0;
   }
@@ -317,7 +317,7 @@ footer a {
 
   aside div {
     display: inline-block;
-    width: 32%;
+    width: 33.3%;
     font-size: 0.8em;
     margin-inline: -3px;
   }
